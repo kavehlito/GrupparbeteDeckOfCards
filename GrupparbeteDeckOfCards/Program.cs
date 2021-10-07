@@ -11,7 +11,7 @@ namespace GrupparbeteDeckOfCards
             Console.WriteLine(new PlayingCard());
             Console.WriteLine(new PlayingCard());
             Console.WriteLine(new PlayingCard());
-            Console.WriteLine(new PlayingCard());
+            
 
             DeckOfCards myDeck = new DeckOfCards();
             Console.WriteLine($"\nA freshly created deck with {myDeck.Count} cards:");
