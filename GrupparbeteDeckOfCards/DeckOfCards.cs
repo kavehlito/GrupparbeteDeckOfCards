@@ -79,8 +79,9 @@ namespace GrupparbeteDeckOfCards
         {
             //YOUR CODE
             //to return the Top card of the deck and reduce the nr of cards in the deck
-
-            return null;
+            PlayingCard card = cards.First();
+            cards = cards.Skip(1).ToArray();
+            return card;
         }
 
         public DeckOfCards()
