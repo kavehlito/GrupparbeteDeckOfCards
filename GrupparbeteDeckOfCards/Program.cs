@@ -24,11 +24,6 @@ namespace GrupparbeteDeckOfCards
             Console.WriteLine($"\nA shuffled deck with {myDeck.Count} cards:");
             Console.WriteLine(myDeck);
 
-            myDeck.Shuffle();
-            Console.WriteLine($"\nA shuffled deck with {myDeck.Count} cards:");
-            Console.WriteLine(myDeck);
-
-
 
             //For the Challange
 
