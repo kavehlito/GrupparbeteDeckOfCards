@@ -1,5 +1,8 @@
 ﻿using System;
 
+// Kaveh, Alexandra.F, Josefine
+//Grupp: Legends of Venedig
+
 namespace GrupparbeteDeckOfCards
 {
     class Program
@@ -15,6 +18,10 @@ namespace GrupparbeteDeckOfCards
 
             DeckOfCards myDeck = new DeckOfCards();
             Console.WriteLine($"\nA freshly created deck with {myDeck.Count} cards:");
+            Console.WriteLine(myDeck);
+
+            myDeck.Shuffle();
+            Console.WriteLine($"\nA shuffled deck with {myDeck.Count} cards:");
             Console.WriteLine(myDeck);
 
             myDeck.Shuffle();
